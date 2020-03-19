@@ -99,7 +99,7 @@ function listMajors(auth) {
 
       const keys = toJson.map(item => {
         return {
-          'ID.:': item['ID:'],
+          NATIONALITY: item['NATIONALITY'],
         }
       })
       const grouped = groupByKeys(keys, toJson)
